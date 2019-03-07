@@ -1,7 +1,7 @@
 ﻿const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
-const myid = [''];
+const myid = ['552647908478943243'];
 const prefix = ['-'];
 
 client.on('ready', () => {
@@ -32,7 +32,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === prefix+'مبلغ'){
-        message.channel.send('$credits')
+        message.channel.send('#credits')
     }
 });
 
@@ -83,7 +83,7 @@ client2.on('message', message => {
 
 client2.on('message', message => {
     if(message.content === prefix+'مبلغ'){
-        message.channel.send('$credits')
+        message.channel.send('#credits')
     }
 });
 
